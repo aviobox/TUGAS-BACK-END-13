@@ -1,0 +1,26 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysql_rizki": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "mysql://root:12345@localhost/toko",
+    "database": "toko",
+    "password": "12345",
+    "name": "mysql_rizki",
+    "user": "rizki",
+    "connector": "mysql"
+  },
+  "mysql_pedagang": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "mysql://rizki:54321@localhost/toko",
+    "database": "toko",
+    "password": "54321",
+    "name": "mysql_pedagang",
+    "user": "rizki",
+    "connector": "mysql"
+  }
+}

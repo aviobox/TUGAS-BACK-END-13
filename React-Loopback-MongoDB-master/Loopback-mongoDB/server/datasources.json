@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "loop-mongo": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://rizki2:1234@localhost:27017/toko",
+    "database": "toko",
+    "password": "1234",
+    "name": "loop-mongo",
+    "user": "rizki2",
+    "connector": "mongodb"
+  }
+}
